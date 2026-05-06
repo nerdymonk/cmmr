@@ -1,27 +1,18 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect } from "react";
 
-type Theme = "light" | "dark";
+type Theme = "light";
 const ThemeCtx = createContext<{ theme: Theme; toggle: () => void }>({
   theme: "light",
   toggle: () => {},
 });
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("light");
-
   useEffect(() => {
-    const stored = (typeof window !== "undefined" && localStorage.getItem("cmmr-theme")) as Theme | null;
-    const initial: Theme = stored ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    setTheme(initial);
+    document.documentElement.classList.remove("dark");
   }, []);
 
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark");
-    if (typeof window !== "undefined") localStorage.setItem("cmmr-theme", theme);
-  }, [theme]);
-
   return (
-    <ThemeCtx.Provider value={{ theme, toggle: () => setTheme((t) => (t === "light" ? "dark" : "light")) }}>
+    <ThemeCtx.Provider value={{ theme: "light", toggle: () => {} }}>
       {children}
     </ThemeCtx.Provider>
   );
