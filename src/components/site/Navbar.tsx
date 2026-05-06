@@ -35,10 +35,10 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         <Link to="/" className="flex flex-col leading-none">
-          <span className="font-display text-2xl font-bold tracking-tight">
-            C.M.M.R<span className="text-primary">.</span>
+          <span className="font-display text-2xl font-bold tracking-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
+            C.M.M.R<span className="text-primary-light">.</span>
           </span>
-          <span className="text-[9px] uppercase tracking-[0.18em] text-muted-foreground hidden sm:block">
+          <span className="text-[9px] uppercase tracking-[0.18em] text-white/80 hidden sm:block drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
             Centre for Media & Migration Research
           </span>
         </Link>
