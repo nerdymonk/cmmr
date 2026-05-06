@@ -40,11 +40,9 @@
   --color-bg-secondary: var(--bg-secondary);
   --color-text-muted: var(--text-muted);
 
-  --gradient-primary: linear-gradient(135deg, #7DC142 0%, #1E5C1A 100%);
-  --gradient-primary-soft: linear-gradient(135deg, #7DC142 0%, #4A9B3A 100%);
-  --gradient-mesh: radial-gradient(at 20% 20%, #7DC14233 0px, transparent 50%),
-                   radial-gradient(at 80% 60%, #4A9B3A33 0px, transparent 50%),
-                   radial-gradient(at 50% 90%, #1E5C1A22 0px, transparent 50%);
+  --gradient-primary: #4A9B3A;
+  --gradient-primary-soft: #7DC142;
+  --gradient-mesh: none;
   --shadow-glow: 0 10px 40px -10px rgba(74, 155, 58, 0.35);
   --shadow-card: 0 4px 24px -8px rgba(30, 92, 26, 0.12);
 }
