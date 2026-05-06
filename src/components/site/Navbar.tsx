@@ -79,7 +79,7 @@ export function Navbar() {
         className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ${
           open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
-        style={{ background: "linear-gradient(135deg, #7DC142 0%, #1E5C1A 100%)" }}
+        style={{ backgroundColor: "#1E5C1A" }}
       >
         <div className="pt-24 px-8 flex flex-col gap-2">
           {links.map((l, i) => (

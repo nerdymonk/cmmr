@@ -43,9 +43,8 @@ function HomePage() {
         />
         <div
           className="absolute inset-0"
-          style={{ background: "linear-gradient(115deg, rgba(15,26,13,0.92) 0%, rgba(30,92,26,0.78) 50%, rgba(74,155,58,0.55) 100%)" }}
+          style={{ backgroundColor: "rgba(15, 26, 13, 0.78)" }}
         />
-        <div className="absolute inset-0 bg-mesh opacity-40" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full grid lg:grid-cols-12 gap-8 items-center py-20">
           <div className="lg:col-span-8">
