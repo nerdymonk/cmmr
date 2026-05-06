@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowDown, BookOpen, Users, Globe2, Newspaper, Quote, Mic, GraduationCap } from "lucide-react";
 import { PageEffects } from "@/components/site/PageEffects";
+import { PartnerMarquee } from "@/components/site/PartnerMarquee";
 import { useCountUp } from "@/lib/scroll-reveal";
 import studentLaptop from "@/assets/brochure/student-laptop.jpg";
 import womanTablet from "@/assets/brochure/woman-tablet.jpg";
@@ -264,18 +265,7 @@ function HomePage() {
       </section>
 
       {/* PARTNERS */}
-      <section className="py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center reveal">
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-text-muted mb-10">In collaboration with</div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
-            {["Baze University", "University of Leeds", "Cardiff University", "UNESCO", "World Bank"].map((p) => (
-              <div key={p} className="h-16 flex items-center justify-center border border-border rounded-xl text-sm font-display text-text-muted hover:text-primary hover:border-primary transition-colors">
-                {p}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <PartnerMarquee />
 
       {/* CTA */}
       <section className="py-24">
