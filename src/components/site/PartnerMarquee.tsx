@@ -2,7 +2,7 @@ import leeds from "@/assets/partners/leeds.png";
 import baze from "@/assets/partners/baze.png";
 import cardiff from "@/assets/partners/cardiff.png";
 import unesco from "@/assets/partners/unesco.png";
-import worldbank from "@/assets/partners/worldbank.png";
+import worldbank from "@/assets/partners/worldbank.svg";
 
 const partners = [
   { name: "University of Leeds", src: leeds },
