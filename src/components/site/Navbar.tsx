@@ -1,7 +1,6 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { Moon, Sun, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { useTheme } from "@/lib/theme";
 
 const links = [
   { to: "/", label: "Home" },
@@ -15,7 +14,6 @@ const links = [
 ] as const;
 
 export function Navbar() {
-  const { theme, toggle } = useTheme();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const loc = useLocation();
@@ -60,16 +58,9 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <button
-            onClick={toggle}
-            aria-label="Toggle theme"
-            className="h-9 w-9 rounded-full border border-border flex items-center justify-center hover:border-primary transition-all hover:rotate-12"
-          >
-            {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-          </button>
           <Link
             to="/donate"
-            className="hidden sm:inline-flex btn-gradient rounded-full px-5 py-2 text-sm font-semibold"
+            className="hidden sm:inline-flex bg-primary text-white hover:bg-primary-dark transition-colors rounded-full px-5 py-2 text-sm font-semibold"
           >
             Donate
           </Link>
