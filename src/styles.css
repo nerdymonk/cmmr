@@ -123,29 +123,14 @@
   }
 }
 
-/* Animated gradient mesh background */
-@keyframes mesh-shift {
-  0%, 100% { background-position: 0% 0%, 100% 100%, 50% 100%; }
-  50% { background-position: 100% 50%, 0% 50%, 50% 0%; }
-}
+/* Mesh background disabled — solid look only */
 .bg-mesh {
-  background: var(--gradient-mesh);
-  background-size: 200% 200%, 200% 200%, 200% 200%;
-  animation: mesh-shift 20s ease-in-out infinite;
+  background: transparent;
 }
 
-/* Gradient text shimmer */
-@keyframes shimmer {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
+/* Solid emphasis text (was gradient shimmer) */
 .text-gradient {
-  background: linear-gradient(90deg, #7DC142, #4A9B3A, #1E5C1A, #4A9B3A, #7DC142);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shimmer 6s linear infinite;
+  color: var(--primary);
 }
 
 /* Fade up entrance */
@@ -179,32 +164,33 @@
   box-shadow: var(--shadow-glow);
 }
 
-/* Gradient utilities */
+/* Solid green utilities (gradients removed per brand direction) */
 .bg-gradient-primary {
-  background: var(--gradient-primary);
+  background: var(--primary);
 }
 .bg-gradient-primary-soft {
-  background: var(--gradient-primary-soft);
+  background: var(--primary-light);
 }
 
 /* Frosted nav */
 .nav-frost {
   backdrop-filter: blur(16px) saturate(160%);
   -webkit-backdrop-filter: blur(16px) saturate(160%);
-  background-color: color-mix(in srgb, var(--background) 70%, transparent);
+  background-color: color-mix(in srgb, var(--background) 80%, transparent);
   border-bottom: 1px solid color-mix(in srgb, var(--primary) 20%, transparent);
 }
 
-/* Animated gradient border button */
+/* Solid primary button with subtle shine sweep */
 .btn-gradient {
   position: relative;
-  background: var(--gradient-primary);
+  background: var(--primary);
   color: white;
   isolation: isolate;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .btn-gradient:hover {
+  background: var(--primary-dark);
   transform: translateY(-2px);
   box-shadow: var(--shadow-glow);
 }
@@ -212,7 +198,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.25) 50%, transparent 70%);
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.18) 50%, transparent 70%);
   transform: translateX(-100%);
   transition: transform 0.7s ease;
 }
@@ -220,7 +206,7 @@
   transform: translateX(100%);
 }
 
-/* Outlined gradient border */
+/* Outlined button */
 .btn-outline-grad {
   position: relative;
   background: transparent;
@@ -229,9 +215,9 @@
   transition: all 0.3s ease;
 }
 .btn-outline-grad:hover {
-  background: var(--gradient-primary);
+  background: var(--primary);
   color: white;
-  border-color: transparent;
+  border-color: var(--primary);
   transform: translateY(-2px);
 }
 
