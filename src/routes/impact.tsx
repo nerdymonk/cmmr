@@ -56,7 +56,7 @@ function ImpactPage() {
     return () => clearInterval(id);
   }, []);
 
-  const isDark = theme === "dark";
+  const isDark = false;
   const tickColor = isDark ? "#B8CCB3" : "#4A4A4A";
   const gridColor = isDark ? "#2A3D26" : "#E0E8DA";
 
