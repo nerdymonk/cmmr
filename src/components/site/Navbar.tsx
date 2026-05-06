@@ -30,8 +30,9 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled ? "nav-frost py-2" : "bg-transparent py-4"
+        scrolled ? "py-2 backdrop-blur-md border-b border-white/10" : "bg-transparent py-4"
       }`}
+      style={scrolled ? { backgroundColor: "rgba(30, 92, 26, 0.88)" } : undefined}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         <Link to="/" className="flex flex-col leading-none">
