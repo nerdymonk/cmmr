@@ -48,9 +48,9 @@ export function Navbar() {
             <Link
               key={l.to}
               to={l.to}
-              className="px-3 py-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors relative"
+              className="px-3 py-2 text-sm font-medium text-white hover:text-primary-light transition-colors relative drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]"
               activeOptions={{ exact: l.to === "/" }}
-              activeProps={{ className: "px-3 py-2 text-sm font-medium text-primary" }}
+              activeProps={{ className: "px-3 py-2 text-sm font-medium text-primary-light drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]" }}
             >
               {l.label}
             </Link>
