@@ -320,13 +320,13 @@
 
 /* Brand decorative network patterns (from brochure) */
 .pattern-light-bg {
-  background-image: url("/src/assets/brochure/pattern-light.png");
+  background-image: url("/patterns/pattern-light.png");
   background-repeat: repeat;
   background-size: 600px auto;
   background-position: center;
 }
 .pattern-green-bg {
-  background-image: url("/src/assets/brochure/pattern-green.png");
+  background-image: url("/patterns/pattern-green.png");
   background-repeat: repeat;
   background-size: 700px auto;
   background-position: center;
@@ -335,7 +335,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/src/assets/brochure/pattern-light.png");
+  background-image: url("/patterns/pattern-light.png");
   background-repeat: repeat;
   background-size: 600px auto;
   opacity: 0.08;
@@ -346,7 +346,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/src/assets/brochure/pattern-green.png");
+  background-image: url("/patterns/pattern-green.png");
   background-repeat: repeat;
   background-size: 700px auto;
   opacity: 0.18;
