@@ -21,10 +21,10 @@ export const Route = createFileRoute("/impact")({
 function StatCard({ label, value, prefix = "", suffix = "" }: { label: string; value: number; prefix?: string; suffix?: string }) {
   const ref = useCountUp(value);
   return (
-    <div className="card-lift bg-card border border-border rounded-3xl p-8 relative overflow-hidden reveal min-w-0">
+    <div className="card-lift bg-card border border-border rounded-3xl p-5 sm:p-8 relative overflow-hidden reveal min-w-0">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-primary" />
-      <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-text-muted mb-4">{label}</div>
-      <div className="font-mono text-2xl sm:text-3xl md:text-4xl text-foreground leading-none break-words">
+      <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-text-muted mb-3 sm:mb-4">{label}</div>
+      <div className="font-mono text-xl sm:text-3xl md:text-4xl text-foreground leading-none break-all whitespace-nowrap overflow-hidden">
         {prefix}<span ref={ref}>0</span>{suffix}
       </div>
     </div>
