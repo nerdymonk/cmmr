@@ -76,36 +76,42 @@ export function Navbar() {
       </div>
 
       {/* Mobile drawer */}
-      <div
-        className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ${
-          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
-        style={{ backgroundColor: "#1E5C1A" }}
-      >
-        <div className="pt-24 px-8 flex flex-col gap-2">
-          {links.map((l, i) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              className="text-white text-3xl font-display py-2 transition-all"
-              style={{
-                opacity: open ? 1 : 0,
-                transform: open ? "translateX(0)" : "translateX(40px)",
-                transitionDelay: `${i * 60 + 100}ms`,
-                transitionDuration: "500ms",
-              }}
+      {open && (
+        <div
+          className="lg:hidden fixed inset-0 z-[100] overflow-y-auto"
+          style={{ backgroundColor: "#1E5C1A" }}
+        >
+          <div className="flex items-center justify-between px-4 py-4 border-b border-white/15">
+            <span className="font-display text-2xl font-bold text-white">
+              C.M.M.R<span className="text-primary-light">.</span>
+            </span>
+            <button
+              onClick={() => setOpen(false)}
+              aria-label="Close menu"
+              className="h-9 w-9 rounded-full border border-white/30 flex items-center justify-center text-white"
             >
-              {l.label}
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+          <div className="pt-6 px-8 pb-12 flex flex-col gap-2">
+            {links.map((l) => (
+              <Link
+                key={l.to}
+                to={l.to}
+                className="text-white text-3xl font-display py-2"
+              >
+                {l.label}
+              </Link>
+            ))}
+            <Link
+              to="/donate"
+              className="mt-6 inline-flex bg-white text-primary-dark font-semibold rounded-full px-6 py-3 self-start"
+            >
+              Donate
             </Link>
-          ))}
-          <Link
-            to="/donate"
-            className="mt-6 inline-flex bg-white text-primary-dark font-semibold rounded-full px-6 py-3 self-start"
-          >
-            Donate
-          </Link>
+          </div>
         </div>
-      </div>
+      )}
     </header>
   );
 }

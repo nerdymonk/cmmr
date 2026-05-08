@@ -10,7 +10,7 @@ import camera from "@/assets/brochure/camera-classroom.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "C.M.M.R — Connecting Worlds, Shaping Narratives" },
+      { title: "C.M.M.R , Connecting Worlds, Shaping Narratives" },
       { name: "description", content: "Nigeria's premier multidisciplinary research centre exploring the intersections of media and migration." },
     ],
   }),
@@ -96,7 +96,7 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative reveal">
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/70 mb-4">Our mission</div>
           <p className="font-display text-3xl md:text-5xl lg:text-6xl leading-tight max-w-5xl">
-            Through research, dialogue and collaboration, we build stronger, more connected societies — empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
+            Through research, dialogue and collaboration, we build stronger, more connected societies , empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
           </p>
         </div>
       </section>
@@ -256,7 +256,7 @@ function HomePage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center relative reveal">
           <Quote className="h-10 w-10 mx-auto mb-8 text-[#8DC142]" />
           <p className="font-display text-3xl md:text-5xl leading-tight mb-10">
-            Migration is not just a journey of bodies across borders — it is a journey of stories, identity and possibility. The media we make shapes the world we share.
+            Migration is not just a journey of bodies across borders , it is a journey of stories, identity and possibility. The media we make shapes the world we share.
           </p>
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142]">Professor Abiodun Adeniyi</div>
           <div className="text-sm text-white/80 mt-1">Executive Research Lead, C.M.M.R</div>

@@ -7,9 +7,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const Route = createFileRoute("/programmes")({
   head: () => ({
     meta: [
-      { title: "Programmes — C.M.M.R" },
+      { title: "Programmes , C.M.M.R" },
       { name: "description", content: "Five core programmes spanning research, media literacy, diaspora networks, publications and community outreach." },
-      { property: "og:title", content: "Programmes — C.M.M.R" },
+      { property: "og:title", content: "Programmes , C.M.M.R" },
     ],
   }),
   component: ProgrammesPage,
@@ -43,7 +43,7 @@ const programmes = [
   {
     Icon: MessageSquare,
     t: "Community Outreach & Workshops",
-    d: "On-the-ground engagement in towns and universities — bringing migration knowledge directly to those most affected.",
+    d: "On-the-ground engagement in towns and universities , bringing migration knowledge directly to those most affected.",
     img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1400&q=80",
   },
 ];
@@ -51,12 +51,12 @@ const programmes = [
 const agenda = [
   { t: "Workshops on evidence-based migration policy", d: "Convening scholars and policymakers to develop practical, research-grounded migration frameworks." },
   { t: "Training journalists on ethical reporting", d: "Equipping media practitioners with the tools to cover migration with nuance, accuracy and care." },
-  { t: "Youth education campaigns", d: "Public campaigns demystifying migration realities — risks, rights and legal pathways." },
+  { t: "Youth education campaigns", d: "Public campaigns demystifying migration realities , risks, rights and legal pathways." },
   { t: "Annual forums on migration & identity", d: "A flagship convening on community-building, identity and the diaspora experience." },
   { t: "Diaspora network creation", d: "Structured networks supporting return, connection and cultural exchange between Nigeria and its diaspora." },
   { t: "Mentorship between youth and diaspora", d: "Pairing aspiring migrants with diaspora members for honest guidance and professional development." },
   { t: "Research partnerships", d: "Joint projects with local and international universities, NGOs and policy institutes." },
-  { t: "Peer-reviewed journal & publications", d: "A dedicated outlet for migration, media and diaspora scholarship — plus practical guides for the public." },
+  { t: "Peer-reviewed journal & publications", d: "A dedicated outlet for migration, media and diaspora scholarship , plus practical guides for the public." },
 ];
 
 function ProgrammesPage() {
@@ -66,7 +66,7 @@ function ProgrammesPage() {
       <PageHero
         eyebrow="Programmes"
         title={<>Our <span className="italic">programmes</span></>}
-        subtitle="Research, training, mentorship and publication — five interconnected programmes advancing C.M.M.R's mission."
+        subtitle="Research, training, mentorship and publication , five interconnected programmes advancing C.M.M.R's mission."
         image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=2000&q=80"
       />
 
@@ -74,12 +74,12 @@ function ProgrammesPage() {
       <section className="py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center reveal">
           <p className="font-display text-2xl md:text-4xl leading-snug text-foreground">
-            We work where research meets practice — producing knowledge, training the next generation of media professionals, and convening the conversations that shape policy.
+            We work where research meets practice , producing knowledge, training the next generation of media professionals, and convening the conversations that shape policy.
           </p>
         </div>
       </section>
 
-      {/* PROGRAMME CARDS — alternating */}
+      {/* PROGRAMME CARDS , alternating */}
       <section className="pb-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-20">
           {programmes.map((p, i) => (

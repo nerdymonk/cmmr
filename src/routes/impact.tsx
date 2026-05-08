@@ -10,9 +10,9 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tool
 export const Route = createFileRoute("/impact")({
   head: () => ({
     meta: [
-      { title: "Our Impact — C.M.M.R" },
+      { title: "Our Impact , C.M.M.R" },
       { name: "description", content: "An overview of C.M.M.R's research output, programmes and community reach." },
-      { property: "og:title", content: "Our Impact — C.M.M.R" },
+      { property: "og:title", content: "Our Impact , C.M.M.R" },
     ],
   }),
   component: ImpactPage,
@@ -23,8 +23,8 @@ function StatCard({ label, value, prefix = "", suffix = "" }: { label: string; v
   return (
     <div className="card-lift bg-card border border-border rounded-3xl p-8 relative overflow-hidden reveal min-w-0">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-primary" />
-      <div className="font-mono text-xs uppercase tracking-[0.25em] text-text-muted mb-4">{label}</div>
-      <div className="font-mono text-3xl md:text-4xl text-foreground leading-none break-words">
+      <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-text-muted mb-4">{label}</div>
+      <div className="font-mono text-2xl sm:text-3xl md:text-4xl text-foreground leading-none break-words">
         {prefix}<span ref={ref}>0</span>{suffix}
       </div>
     </div>
@@ -89,7 +89,7 @@ function ImpactPage() {
         subtitle="A transparent view of the research, partnerships and people behind C.M.M.R's work."
       />
 
-      {/* STATS — sourced from the C.M.M.R brochure */}
+      {/* STATS , sourced from the C.M.M.R brochure */}
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

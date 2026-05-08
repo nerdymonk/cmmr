@@ -7,9 +7,9 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — C.M.M.R" },
+      { title: "Gallery , C.M.M.R" },
       { name: "description", content: "Photographs from C.M.M.R workshops, research field work, community events and publications." },
-      { property: "og:title", content: "Gallery — C.M.M.R" },
+      { property: "og:title", content: "Gallery , C.M.M.R" },
     ],
   }),
   component: GalleryPage,
@@ -19,7 +19,7 @@ type Cat = "All" | "Events" | "Research" | "Community" | "Publications";
 
 const items: { src: string; cat: Exclude<Cat, "All">; title: string; date: string }[] = [
   { src: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Annual migration forum", date: "Apr 2026" },
-  { src: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=80", cat: "Research", title: "Field interviews — Lagos", date: "Mar 2026" },
+  { src: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=80", cat: "Research", title: "Field interviews , Lagos", date: "Mar 2026" },
   { src: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80", cat: "Community", title: "Diaspora meet-up", date: "Feb 2026" },
   { src: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1200&q=80", cat: "Publications", title: "Journal launch", date: "Jan 2026" },
   { src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Media literacy workshop", date: "Dec 2025" },
