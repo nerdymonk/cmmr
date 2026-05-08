@@ -90,8 +90,8 @@ function ImpactPage() {
       />
 
       {/* STATS , sourced from the C.M.M.R brochure */}
-      <section className="py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="py-20 relative overflow-hidden pattern-overlay">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <StatCard label="Peer-Reviewed Publications" value={40} suffix="+" />
             <StatCard label="Active Research Programmes" value={4} />
