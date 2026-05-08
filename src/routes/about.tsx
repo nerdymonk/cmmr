@@ -7,7 +7,7 @@ import studentLaptop from "@/assets/brochure/student-laptop.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About C.M.M.R — Our story, vision and team" },
+      { title: "About C.M.M.R , Our story, vision and team" },
       { name: "description", content: "Learn about the Centre for Media and Migration Research, our vision, mission, areas of focus and the team behind the work." },
       { property: "og:title", content: "About C.M.M.R" },
       { property: "og:description", content: "A multidisciplinary research hub at the intersection of media and migration." },
@@ -85,7 +85,7 @@ function AboutPage() {
                 The Centre for Media and Migration Research (C.M.M.R) is a multidisciplinary research hub dedicated to exploring the intersections of media, migration and diaspora communities. Based in Nigeria, we focus on how media shapes migration narratives, diaspora experiences and public perceptions.
               </p>
               <p>
-                Our centre engages scholars, policymakers and practitioners to address the challenges and opportunities of global migration, fostering inclusive narratives and evidence-based solutions. Through research, dialogue and collaboration, we aim to build stronger, more connected societies — empowering voices and promoting cross-cultural understanding.
+                Our centre engages scholars, policymakers and practitioners to address the challenges and opportunities of global migration, fostering inclusive narratives and evidence-based solutions. Through research, dialogue and collaboration, we aim to build stronger, more connected societies , empowering voices and promoting cross-cultural understanding.
               </p>
             </div>
           </div>
@@ -103,7 +103,7 @@ function AboutPage() {
           {[
             {
               t: "Vision",
-              d: "To be a leading hub for innovative research and policy development, shaping global conversations on migration through the transformative power of media — fostering inclusive, informed and resilient communities.",
+              d: "To be a leading hub for innovative research and policy development, shaping global conversations on migration through the transformative power of media , fostering inclusive, informed and resilient communities.",
             },
             {
               t: "Mission",

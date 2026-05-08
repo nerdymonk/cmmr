@@ -27,10 +27,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "C.M.M.R — Centre for Media and Migration Research" },
+      { title: "C.M.M.R , Centre for Media and Migration Research" },
       { name: "description", content: "Nigeria's premier multidisciplinary research centre exploring the intersections of media and migration. Connecting Worlds, Shaping Narratives." },
       { name: "author", content: "C.M.M.R" },
-      { property: "og:title", content: "C.M.M.R — Centre for Media and Migration Research" },
+      { property: "og:title", content: "C.M.M.R , Centre for Media and Migration Research" },
       { property: "og:description", content: "Connecting Worlds, Shaping Narratives. Research, policy and dialogue on media and migration in Nigeria." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

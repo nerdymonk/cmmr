@@ -7,9 +7,9 @@ import { CreditCard, Building2, Smartphone, ShieldCheck, Award, FileCheck2 } fro
 export const Route = createFileRoute("/donate")({
   head: () => ({
     meta: [
-      { title: "Donate — Fund the research that changes lives | C.M.M.R" },
+      { title: "Donate , Fund the research that changes lives | C.M.M.R" },
       { name: "description", content: "Support C.M.M.R's research, training and community programmes. Every contribution powers evidence-based solutions." },
-      { property: "og:title", content: "Donate — C.M.M.R" },
+      { property: "og:title", content: "Donate , C.M.M.R" },
     ],
   }),
   component: DonatePage,

@@ -6,9 +6,9 @@ import { Phone, Mail, MapPin, MessageCircle, Users, Newspaper, Briefcase } from 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — C.M.M.R" },
+      { title: "Contact , C.M.M.R" },
       { name: "description", content: "Get in touch with the Centre for Media and Migration Research for partnerships, media enquiries or research collaboration." },
-      { property: "og:title", content: "Contact — C.M.M.R" },
+      { property: "og:title", content: "Contact , C.M.M.R" },
     ],
   }),
   component: ContactPage,
@@ -21,7 +21,7 @@ function ContactPage() {
       <PageHero
         eyebrow="Contact"
         title={<>Get in <span className="italic">touch</span></>}
-        subtitle="For partnerships, media, research collaboration or general enquiries — we'd love to hear from you."
+        subtitle="For partnerships, media, research collaboration or general enquiries , we'd love to hear from you."
         image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=80"
       />
 
@@ -83,7 +83,7 @@ function ContactPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6">
           {[
             { Icon: Briefcase, t: "For Researchers", d: "Collaborate with us on joint research, data sharing or publications." },
-            { Icon: Users, t: "For Partners", d: "Explore partnership opportunities — institutional, NGO and corporate." },
+            { Icon: Users, t: "For Partners", d: "Explore partnership opportunities , institutional, NGO and corporate." },
             { Icon: Newspaper, t: "For Media", d: "Press enquiries, expert commentary and interview requests." },
           ].map((c, i) => (
             <div key={c.t} className="card-lift bg-card border border-border rounded-3xl p-8 reveal" style={{ transitionDelay: `${i * 80}ms` }}>

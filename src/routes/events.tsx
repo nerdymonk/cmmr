@@ -6,9 +6,9 @@ import { Users, BookOpen, GraduationCap, Globe2, Handshake, Mic, FileText, Light
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events & Programmes — C.M.M.R" },
+      { title: "Events & Programmes , C.M.M.R" },
       { name: "description", content: "C.M.M.R's recurring forums, workshops, training and dialogues drawn from our published agenda." },
-      { property: "og:title", content: "Events & Programmes — C.M.M.R" },
+      { property: "og:title", content: "Events & Programmes , C.M.M.R" },
     ],
   }),
   component: EventsPage,
@@ -24,7 +24,7 @@ const agenda = [
   {
     icon: Mic,
     title: "Training for journalists",
-    desc: "Hands-on sessions on ethical reporting of migration — accuracy, dignity and informed framing.",
+    desc: "Hands-on sessions on ethical reporting of migration , accuracy, dignity and informed framing.",
   },
   {
     icon: GraduationCap,
@@ -65,7 +65,7 @@ function EventsPage() {
       <PageHero
         eyebrow="Events & Programmes"
         title={<>What we <span className="italic">convene</span></>}
-        subtitle="C.M.M.R's work runs on a recurring agenda of forums, workshops, training and dialogues — published in our brochure and delivered year-round."
+        subtitle="C.M.M.R's work runs on a recurring agenda of forums, workshops, training and dialogues , published in our brochure and delivered year-round."
         image="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=2000&q=80"
       />
 
