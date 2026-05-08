@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { PageEffects } from "@/components/site/PageEffects";
 import { useState } from "react";
-import { CreditCard, Building2, Smartphone, ShieldCheck, Award, FileCheck2 } from "lucide-react";
+import { Building2, ShieldCheck, Award, FileCheck2 } from "lucide-react";
 
 export const Route = createFileRoute("/donate")({
   head: () => ({
