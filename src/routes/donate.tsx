@@ -100,17 +100,11 @@ function DonatePage() {
             {/* Payment methods */}
             <div className="bg-card border border-border rounded-3xl p-8 reveal">
               <div className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">Payment method</div>
-              <div className="grid sm:grid-cols-3 gap-3 mb-6">
-                {[
-                  { Icon: CreditCard, l: "Bank Card" },
-                  { Icon: Building2, l: "Bank Transfer" },
-                  { Icon: Smartphone, l: "USSD" },
-                ].map((p, i) => (
-                  <button key={i} className="card-lift flex items-center gap-3 p-4 rounded-2xl border border-border bg-secondary hover:border-primary text-left">
-                    <p.Icon className="h-5 w-5 text-primary" />
-                    <span className="text-sm font-semibold">{p.l}</span>
-                  </button>
-                ))}
+              <div className="mb-6">
+                <div className="card-lift flex items-center gap-3 p-4 rounded-2xl border border-primary bg-secondary text-left">
+                  <Building2 className="h-5 w-5 text-primary" />
+                  <span className="text-sm font-semibold">Bank Transfer</span>
+                </div>
               </div>
               <div className="rounded-2xl bg-secondary p-6">
                 <div className="font-mono text-[10px] uppercase tracking-widest text-text-muted mb-3">Bank transfer details</div>
