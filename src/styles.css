@@ -317,3 +317,38 @@
   animation-play-state: paused;
 }
 
+
+/* Brand decorative network patterns (from brochure) */
+.pattern-light-bg {
+  background-image: url("/patterns/pattern-light.png");
+  background-repeat: repeat;
+  background-size: 600px auto;
+  background-position: center;
+}
+.pattern-green-bg {
+  background-image: url("/patterns/pattern-green.png");
+  background-repeat: repeat;
+  background-size: 700px auto;
+  background-position: center;
+}
+.pattern-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/patterns/pattern-light.png");
+  background-repeat: repeat;
+  background-size: 600px auto;
+  opacity: 0.08;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+.pattern-overlay-green::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/patterns/pattern-green.png");
+  background-repeat: repeat;
+  background-size: 700px auto;
+  opacity: 0.18;
+  pointer-events: none;
+}

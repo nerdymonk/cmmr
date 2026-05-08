@@ -21,10 +21,10 @@ export const Route = createFileRoute("/impact")({
 function StatCard({ label, value, prefix = "", suffix = "" }: { label: string; value: number; prefix?: string; suffix?: string }) {
   const ref = useCountUp(value);
   return (
-    <div className="card-lift bg-card border border-border rounded-3xl p-8 relative overflow-hidden reveal min-w-0">
+    <div className="card-lift bg-card border border-border rounded-3xl p-5 sm:p-8 relative overflow-hidden reveal min-w-0">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-primary" />
-      <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-text-muted mb-4">{label}</div>
-      <div className="font-mono text-2xl sm:text-3xl md:text-4xl text-foreground leading-none break-words">
+      <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-text-muted mb-3 sm:mb-4">{label}</div>
+      <div className="font-mono text-xl sm:text-3xl md:text-4xl text-foreground leading-none break-all whitespace-nowrap overflow-hidden">
         {prefix}<span ref={ref}>0</span>{suffix}
       </div>
     </div>
@@ -90,8 +90,8 @@ function ImpactPage() {
       />
 
       {/* STATS , sourced from the C.M.M.R brochure */}
-      <section className="py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="py-20 relative overflow-hidden pattern-overlay">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <StatCard label="Peer-Reviewed Publications" value={40} suffix="+" />
             <StatCard label="Active Research Programmes" value={4} />

@@ -29,7 +29,16 @@ export function PageHero({
             : "linear-gradient(135deg, #1E5C1A 0%, #4A9B3A 100%)",
         }}
       />
-      <div className="absolute inset-0 bg-mesh opacity-30" />
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage: "url(/patterns/pattern-green.png)",
+          backgroundRepeat: "repeat",
+          backgroundSize: "700px auto",
+          opacity: 0.22,
+          mixBlendMode: "screen",
+        }}
+      />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
         {eyebrow && (
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/80 mb-4 fade-up" style={{ animationDelay: "0.1s" }}>
