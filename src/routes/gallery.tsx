@@ -7,9 +7,9 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery , C.M.M.R" },
-      { name: "description", content: "Photographs from C.M.M.R workshops, research field work, community events and publications." },
-      { property: "og:title", content: "Gallery , C.M.M.R" },
+      { title: "Gallery , C.M.R" },
+      { name: "description", content: "Photographs from C.M.R workshops, research field work, community events and publications." },
+      { property: "og:title", content: "Gallery , C.M.R" },
     ],
   }),
   component: GalleryPage,

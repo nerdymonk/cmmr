@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-3 gap-12">
         <div>
           <div className="font-display text-3xl font-bold">
-            C.M.M.R<span className="text-[#8DC142]">.</span>
+            C.M.R<span className="text-[#8DC142]">.</span>
           </div>
           <p className="mt-2 text-xs uppercase tracking-[0.2em] text-[#7A9973]">
             Centre for Media & Migration Research
@@ -52,7 +52,6 @@ export function Footer() {
           <div>
             <h4 className="font-mono text-xs uppercase tracking-widest text-[#8DC142] mb-4">Engage</h4>
             <ul className="space-y-2 text-sm text-[#B8CCB3]">
-              <li><Link to="/donate" className="hover:text-[#7DC142]">Donate</Link></li>
               <li><Link to="/contact" className="hover:text-[#7DC142]">Contact</Link></li>
               <li><a href="https://wa.me/2347055551944" className="hover:text-[#7DC142]">WhatsApp</a></li>
               <li><a href="mailto:witswords@yahoo.co.uk" className="hover:text-[#7DC142]">Email</a></li>
@@ -78,16 +77,28 @@ export function Footer() {
               Subscribe
             </button>
           </form>
-          <div className="mt-6 text-xs text-[#7A9973] space-y-1">
-            <div>📞 +234 705 555 1944  ·  +234 706 435 0427</div>
-            <div>✉ witswords@yahoo.co.uk</div>
-            <div>📍 Abuja, Nigeria</div>
+          <div className="mt-6 text-xs text-[#7A9973] space-y-2">
+            <div className="flex items-start gap-2">
+              <Phone className="h-3.5 w-3.5 mt-0.5 shrink-0 text-[#8DC142]" />
+              <div className="flex flex-col leading-relaxed">
+                <span>+234 705 555 1944</span>
+                <span>+234 706 435 0427</span>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <Mail className="h-3.5 w-3.5 shrink-0 text-[#8DC142]" />
+              <span>witswords@yahoo.co.uk</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin className="h-3.5 w-3.5 shrink-0 text-[#8DC142]" />
+              <span>Abuja, Nigeria</span>
+            </div>
           </div>
         </div>
       </div>
       <div className="border-t border-[#2A3D26]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-[#7A9973]">
-          <div>© 2026 Centre for Media and Migration Research (C.M.M.R). All Rights Reserved.</div>
+          <div>© 2026 Centre for Media and Migration Research (C.M.R). All Rights Reserved.</div>
           <div className="flex gap-5">
             <a href="#" className="hover:text-[#7DC142]">Privacy Policy</a>
             <a href="#" className="hover:text-[#7DC142]">Terms</a>

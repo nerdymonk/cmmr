@@ -10,7 +10,7 @@ import camera from "@/assets/brochure/camera-classroom.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "C.M.M.R , Connecting Worlds, Shaping Narratives" },
+      { title: "C.M.R , Connecting Worlds, Shaping Narratives" },
       { name: "description", content: "Nigeria's premier multidisciplinary research centre exploring the intersections of media and migration." },
     ],
   }),
@@ -64,8 +64,8 @@ function HomePage() {
               <Link to="/programmes" className="btn-gradient rounded-full px-7 py-3.5 text-sm font-semibold inline-flex items-center gap-2">
                 Explore Our Work <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/donate" className="rounded-full px-7 py-3.5 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
-                Support Our Mission
+              <Link to="/contact" className="rounded-full px-7 py-3.5 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
+                Get in Touch
               </Link>
             </div>
           </div>
@@ -105,7 +105,7 @@ function HomePage() {
       <section className="py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 reveal">
-            <div className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">About C.M.M.R</div>
+            <div className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">About C.M.R</div>
             <h2 className="font-display text-4xl md:text-6xl leading-[1.05] mb-8">
               A research hub at the
               <br />
@@ -114,7 +114,7 @@ function HomePage() {
               and migration.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6 max-w-xl">
-              Based in Nigeria, C.M.M.R brings together scholars, policymakers and practitioners to address the challenges and opportunities of global migration through evidence-based research and inclusive media narratives.
+              Based in Nigeria, C.M.R brings together scholars, policymakers and practitioners to address the challenges and opportunities of global migration through evidence-based research and inclusive media narratives.
             </p>
             <Link to="/about" className="inline-flex items-center gap-2 text-primary font-semibold border-b-2 border-primary pb-1 hover:gap-4 transition-all">
               Read our full story <ArrowRight className="h-4 w-4" />
@@ -259,7 +259,7 @@ function HomePage() {
             Migration is not just a journey of bodies across borders , it is a journey of stories, identity and possibility. The media we make shapes the world we share.
           </p>
           <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142]">Professor Abiodun Adeniyi</div>
-          <div className="text-sm text-white/80 mt-1">Executive Research Lead, C.M.M.R</div>
+          <div className="text-sm text-white/80 mt-1">Executive Research Lead, C.M.R</div>
         </div>
       </section>
 
@@ -285,11 +285,11 @@ function HomePage() {
                 Whether through funding, partnership or volunteering, your engagement shapes Nigeria's migration future.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/donate" className="btn-gradient rounded-full px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
-                  Donate Now <ArrowRight className="h-4 w-4" />
+                <Link to="/contact" className="btn-gradient rounded-full px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
+                  Get Involved <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link to="/contact" className="rounded-full px-8 py-4 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
-                  Get Involved
+                <Link to="/programmes" className="rounded-full px-8 py-4 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
+                  Explore Programmes
                 </Link>
               </div>
             </div>

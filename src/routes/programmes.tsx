@@ -7,9 +7,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const Route = createFileRoute("/programmes")({
   head: () => ({
     meta: [
-      { title: "Programmes , C.M.M.R" },
+      { title: "Programmes , C.M.R" },
       { name: "description", content: "Five core programmes spanning research, media literacy, diaspora networks, publications and community outreach." },
-      { property: "og:title", content: "Programmes , C.M.M.R" },
+      { property: "og:title", content: "Programmes , C.M.R" },
     ],
   }),
   component: ProgrammesPage,
@@ -66,7 +66,7 @@ function ProgrammesPage() {
       <PageHero
         eyebrow="Programmes"
         title={<>Our <span className="italic">programmes</span></>}
-        subtitle="Research, training, mentorship and publication , five interconnected programmes advancing C.M.M.R's mission."
+        subtitle="Research, training, mentorship and publication , five interconnected programmes advancing C.M.R's mission."
         image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=2000&q=80"
       />
 

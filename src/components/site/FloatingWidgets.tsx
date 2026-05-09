@@ -4,7 +4,7 @@ export function FloatingWidgets() {
       href="https://wa.me/2347055551944"
       target="_blank"
       rel="noopener noreferrer"
-      className="group fixed left-4 bottom-6 z-40 flex items-center gap-3 bg-[#25D366] text-white rounded-full pl-3 pr-4 py-3 shadow-lg hover:shadow-xl transition-all"
+      className="group fixed right-4 bottom-6 z-40 flex items-center gap-3 bg-[#25D366] text-white rounded-full pl-3 pr-4 py-3 shadow-lg hover:shadow-xl transition-all"
       aria-label="Chat on WhatsApp"
     >
       <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden>

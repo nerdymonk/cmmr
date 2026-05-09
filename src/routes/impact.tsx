@@ -10,9 +10,9 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tool
 export const Route = createFileRoute("/impact")({
   head: () => ({
     meta: [
-      { title: "Our Impact , C.M.M.R" },
-      { name: "description", content: "An overview of C.M.M.R's research output, programmes and community reach." },
-      { property: "og:title", content: "Our Impact , C.M.M.R" },
+      { title: "Our Impact , C.M.R" },
+      { name: "description", content: "An overview of C.M.R's research output, programmes and community reach." },
+      { property: "og:title", content: "Our Impact , C.M.R" },
     ],
   }),
   component: ImpactPage,
@@ -35,7 +35,7 @@ function ImpactPage() {
   const tickColor = "#4A4A4A";
   const gridColor = "#E0E8DA";
 
-  // Figures grounded in the C.M.M.R brochure: 40+ peer-reviewed publications,
+  // Figures grounded in the C.M.R brochure: 40+ peer-reviewed publications,
   // 4 active research programmes, 3 partner universities, 1,200+ community members.
   const barData = {
     labels: ["Research & Policy", "Media Literacy", "Diaspora Network", "Publications"],
@@ -86,10 +86,10 @@ function ImpactPage() {
       <PageHero
         eyebrow="Our Impact"
         title={<>Our impact <span className="italic">at a glance</span></>}
-        subtitle="A transparent view of the research, partnerships and people behind C.M.M.R's work."
+        subtitle="A transparent view of the research, partnerships and people behind C.M.R's work."
       />
 
-      {/* STATS , sourced from the C.M.M.R brochure */}
+      {/* STATS , sourced from the C.M.R brochure */}
       <section className="py-20 relative overflow-hidden pattern-overlay">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

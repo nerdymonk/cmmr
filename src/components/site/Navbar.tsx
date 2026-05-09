@@ -37,7 +37,7 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         <Link to="/" className="flex flex-col leading-none">
           <span className="font-display text-2xl font-bold tracking-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
-            C.M.M.R<span className="text-primary-light">.</span>
+            C.M.R<span className="text-primary-light">.</span>
           </span>
           <span className="text-[9px] uppercase tracking-[0.18em] text-white/80 hidden sm:block drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
             Centre for Media & Migration Research
@@ -60,10 +60,10 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <Link
-            to="/donate"
+            to="/contact"
             className="hidden sm:inline-flex bg-primary text-white hover:bg-primary-dark transition-colors rounded-full px-5 py-2 text-sm font-semibold"
           >
-            Donate
+            Get in touch
           </Link>
           <button
             onClick={() => setOpen((o) => !o)}
@@ -83,7 +83,7 @@ export function Navbar() {
         >
           <div className="flex items-center justify-between px-4 py-4 border-b border-white/15">
             <span className="font-display text-2xl font-bold text-white">
-              C.M.M.R<span className="text-primary-light">.</span>
+              C.M.R<span className="text-primary-light">.</span>
             </span>
             <button
               onClick={() => setOpen(false)}
@@ -104,10 +104,10 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              to="/donate"
+              to="/contact"
               className="mt-6 inline-flex bg-white text-primary-dark font-semibold rounded-full px-6 py-3 self-start"
             >
-              Donate
+              Get in touch
             </Link>
           </div>
         </div>
