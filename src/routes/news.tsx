@@ -15,7 +15,7 @@ export const Route = createFileRoute("/news")({
 });
 
 const featured = {
-  img: "https://images.unsplash.com/photo-1523995462485-3d171b5c8fa9?auto=format&fit=crop&w=2000&q=80",
+  img: "/media/podcast-phone-recording.jpg",
   cat: "Research",
   date: "28 APR 2026",
   t: "Reframing the migration story: a 5-year review",
@@ -23,13 +23,13 @@ const featured = {
 };
 
 const posts = [
-  { img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80", cat: "Policy", date: "12 APR 2026", t: "Why balanced reporting on migration matters more than ever", e: "A look at three case studies where reframing changed public perception." },
-  { img: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=900&q=80", cat: "Research", date: "03 MAR 2026", t: "Youth migration aspirations: findings from a 2026 national survey", e: "Over 70% of Nigerian youth view migration as a viable life path." },
-  { img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80", cat: "Diaspora", date: "15 FEB 2026", t: "Building bridges: how diaspora networks shape Nigeria's economy", e: "Remittances surpassed ₦9 trillion in 2024 , but money is only part of the story." },
-  { img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=900&q=80", cat: "Media", date: "08 FEB 2026", t: "Training journalists for ethical migration coverage", e: "Inside our 3-day intensive with 40 reporters from across West Africa." },
-  { img: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?auto=format&fit=crop&w=900&q=80", cat: "Youth", date: "22 JAN 2026", t: "The literacy gap: who's teaching young people to read media critically?", e: "Our nationwide schools survey reveals striking disparities." },
-  { img: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80", cat: "Policy", date: "10 JAN 2026", t: "What a humane migration policy actually looks like", e: "Five concrete recommendations for the next legislative session." },
-  { img: "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=900&q=80", cat: "Research", date: "01 JAN 2026", t: "Mental health and migration: an under-studied frontier", e: "Why psychological wellbeing must be central to migration policy." },
+  { img: "/media/woman-headphones-yellow.png", cat: "Policy", date: "12 APR 2026", t: "Why balanced reporting on migration matters more than ever", e: "A look at three case studies where reframing changed public perception." },
+  { img: "/media/woman-tablet-headphones.jpg", cat: "Research", date: "03 MAR 2026", t: "Youth migration aspirations: findings from a 2026 national survey", e: "Over 70% of Nigerian youth view migration as a viable life path." },
+  { img: "/media/designer-retouching.jpg", cat: "Diaspora", date: "15 FEB 2026", t: "Building bridges: how diaspora networks shape Nigeria's economy", e: "Remittances surpassed ₦9 trillion in 2024 , but money is only part of the story." },
+  { img: "/media/podcast-host-waving.jpg", cat: "Media", date: "08 FEB 2026", t: "Training journalists for ethical migration coverage", e: "Inside our 3-day intensive with 40 reporters from across West Africa." },
+  { img: "/media/woman-headphones-yellow.png", cat: "Youth", date: "22 JAN 2026", t: "The literacy gap: who's teaching young people to read media critically?", e: "Our nationwide schools survey reveals striking disparities." },
+  { img: "/media/content-creator-review.jpg", cat: "Policy", date: "10 JAN 2026", t: "What a humane migration policy actually looks like", e: "Five concrete recommendations for the next legislative session." },
+  { img: "/media/youth-phones.png", cat: "Research", date: "01 JAN 2026", t: "Mental health and migration: an under-studied frontier", e: "Why psychological wellbeing must be central to migration policy." },
 ];
 
 function NewsPage() {
@@ -40,7 +40,7 @@ function NewsPage() {
         eyebrow="Insights"
         title={<>News & <span className="italic">insights</span></>}
         subtitle="Research, analysis and conversation from the C.M.R team and our network of contributors."
-        image="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=2000&q=80"
+        image="/media/podcast-host-waving.jpg"
       />
 
       {/* FEATURED */}

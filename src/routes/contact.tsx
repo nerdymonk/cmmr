@@ -22,7 +22,7 @@ function ContactPage() {
         eyebrow="Contact"
         title={<>Get in <span className="italic">touch</span></>}
         subtitle="For partnerships, media, research collaboration or general enquiries , we'd love to hear from you."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=80"
+        image="/media/content-creator-review.jpg"
       />
 
       <section className="py-20">
