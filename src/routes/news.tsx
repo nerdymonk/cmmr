@@ -6,9 +6,9 @@ import { ArrowRight, Search } from "lucide-react";
 export const Route = createFileRoute("/news")({
   head: () => ({
     meta: [
-      { title: "News & Insights , C.M.M.R" },
+      { title: "News & Insights , C.M.R" },
       { name: "description", content: "Research updates, op-eds, policy briefs and analysis from the Centre for Media and Migration Research." },
-      { property: "og:title", content: "News & Insights , C.M.M.R" },
+      { property: "og:title", content: "News & Insights , C.M.R" },
     ],
   }),
   component: NewsPage,
@@ -39,7 +39,7 @@ function NewsPage() {
       <PageHero
         eyebrow="Insights"
         title={<>News & <span className="italic">insights</span></>}
-        subtitle="Research, analysis and conversation from the C.M.M.R team and our network of contributors."
+        subtitle="Research, analysis and conversation from the C.M.R team and our network of contributors."
         image="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=2000&q=80"
       />
 
@@ -83,7 +83,7 @@ function NewsPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div className="h-7 w-7 rounded-full bg-gradient-primary" />
-                        <span className="text-xs text-text-muted">C.M.M.R Team</span>
+                        <span className="text-xs text-text-muted">C.M.R Team</span>
                       </div>
                       <a href="#" className="text-primary text-xs font-semibold inline-flex items-center gap-1">Read <ArrowRight className="h-3 w-3" /></a>
                     </div>

@@ -7,9 +7,9 @@ import studentLaptop from "@/assets/brochure/student-laptop.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About C.M.M.R , Our story, vision and team" },
+      { title: "About C.M.R , Our story, vision and team" },
       { name: "description", content: "Learn about the Centre for Media and Migration Research, our vision, mission, areas of focus and the team behind the work." },
-      { property: "og:title", content: "About C.M.M.R" },
+      { property: "og:title", content: "About C.M.R" },
       { property: "og:description", content: "A multidisciplinary research hub at the intersection of media and migration." },
     ],
   }),
@@ -67,7 +67,7 @@ function AboutPage() {
       <PageEffects />
       <PageHero
         eyebrow="About"
-        title={<>About <span className="italic">C.M.M.R</span></>}
+        title={<>About <span className="italic">C.M.R</span></>}
         subtitle="A multidisciplinary research hub exploring how media shapes migration narratives, diaspora experience and policy."
         image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=2000&q=80"
       />
@@ -82,7 +82,7 @@ function AboutPage() {
             </h2>
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
               <p>
-                The Centre for Media and Migration Research (C.M.M.R) is a multidisciplinary research hub dedicated to exploring the intersections of media, migration and diaspora communities. Based in Nigeria, we focus on how media shapes migration narratives, diaspora experiences and public perceptions.
+                The Centre for Media and Migration Research (C.M.R) is a multidisciplinary research hub dedicated to exploring the intersections of media, migration and diaspora communities. Based in Nigeria, we focus on how media shapes migration narratives, diaspora experiences and public perceptions.
               </p>
               <p>
                 Our centre engages scholars, policymakers and practitioners to address the challenges and opportunities of global migration, fostering inclusive narratives and evidence-based solutions. Through research, dialogue and collaboration, we aim to build stronger, more connected societies , empowering voices and promoting cross-cultural understanding.
@@ -107,7 +107,7 @@ function AboutPage() {
             },
             {
               t: "Mission",
-              d: "C.M.M.R advances research on media's role in migration. We provide insights for scholars and policymakers, fostering inclusive narratives and policies to build more informed, connected societies in Nigeria and beyond.",
+              d: "C.M.R advances research on media's role in migration. We provide insights for scholars and policymakers, fostering inclusive narratives and policies to build more informed, connected societies in Nigeria and beyond.",
             },
           ].map((c, i) => (
             <div key={c.t} className="card-lift bg-card border border-border rounded-3xl p-10 relative overflow-hidden reveal" style={{ transitionDelay: `${i * 100}ms` }}>

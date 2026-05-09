@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-3 gap-12">
         <div>
           <div className="font-display text-3xl font-bold">
-            C.M.M.R<span className="text-[#8DC142]">.</span>
+            C.M.R<span className="text-[#8DC142]">.</span>
           </div>
           <p className="mt-2 text-xs uppercase tracking-[0.2em] text-[#7A9973]">
             Centre for Media & Migration Research
@@ -87,7 +87,7 @@ export function Footer() {
       </div>
       <div className="border-t border-[#2A3D26]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-[#7A9973]">
-          <div>© 2026 Centre for Media and Migration Research (C.M.M.R). All Rights Reserved.</div>
+          <div>© 2026 Centre for Media and Migration Research (C.M.R). All Rights Reserved.</div>
           <div className="flex gap-5">
             <a href="#" className="hover:text-[#7DC142]">Privacy Policy</a>
             <a href="#" className="hover:text-[#7DC142]">Terms</a>

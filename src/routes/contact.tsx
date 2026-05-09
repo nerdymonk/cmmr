@@ -6,9 +6,9 @@ import { Phone, Mail, MapPin, MessageCircle, Users, Newspaper, Briefcase } from 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact , C.M.M.R" },
+      { title: "Contact , C.M.R" },
       { name: "description", content: "Get in touch with the Centre for Media and Migration Research for partnerships, media enquiries or research collaboration." },
-      { property: "og:title", content: "Contact , C.M.M.R" },
+      { property: "og:title", content: "Contact , C.M.R" },
     ],
   }),
   component: ContactPage,

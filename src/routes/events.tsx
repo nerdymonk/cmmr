@@ -6,15 +6,15 @@ import { Users, BookOpen, GraduationCap, Globe2, Handshake, Mic, FileText, Light
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events & Programmes , C.M.M.R" },
-      { name: "description", content: "C.M.M.R's recurring forums, workshops, training and dialogues drawn from our published agenda." },
-      { property: "og:title", content: "Events & Programmes , C.M.M.R" },
+      { title: "Events & Programmes , C.M.R" },
+      { name: "description", content: "C.M.R's recurring forums, workshops, training and dialogues drawn from our published agenda." },
+      { property: "og:title", content: "Events & Programmes , C.M.R" },
     ],
   }),
   component: EventsPage,
 });
 
-// The eight agenda items published in the C.M.M.R brochure.
+// The eight agenda items published in the C.M.R brochure.
 const agenda = [
   {
     icon: Users,
@@ -65,7 +65,7 @@ function EventsPage() {
       <PageHero
         eyebrow="Events & Programmes"
         title={<>What we <span className="italic">convene</span></>}
-        subtitle="C.M.M.R's work runs on a recurring agenda of forums, workshops, training and dialogues , published in our brochure and delivered year-round."
+        subtitle="C.M.R's work runs on a recurring agenda of forums, workshops, training and dialogues , published in our brochure and delivered year-round."
         image="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=2000&q=80"
       />
 
@@ -75,7 +75,7 @@ function EventsPage() {
             <div className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-3">Our agenda</div>
             <h2 className="font-display text-4xl md:text-5xl">Eight strands of work</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Rather than one-off events, C.M.M.R operates a continuous programme. Each strand below is drawn directly from our published brochure.
+              Rather than one-off events, C.M.R operates a continuous programme. Each strand below is drawn directly from our published brochure.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ function EventsPage() {
             Specific dates and venues for upcoming forums, workshops and training sessions are announced as they are scheduled. Reach out and we will keep you informed.
           </p>
           <a href="/contact" className="btn-gradient rounded-full px-7 py-3 text-sm font-semibold inline-flex items-center gap-2">
-            Contact C.M.M.R
+            Contact C.M.R
           </a>
         </div>
       </section>
