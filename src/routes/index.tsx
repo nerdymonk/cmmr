@@ -64,8 +64,8 @@ function HomePage() {
               <Link to="/programmes" className="btn-gradient rounded-full px-7 py-3.5 text-sm font-semibold inline-flex items-center gap-2">
                 Explore Our Work <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link to="/donate" className="rounded-full px-7 py-3.5 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
-                Support Our Mission
+              <Link to="/contact" className="rounded-full px-7 py-3.5 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
+                Get in Touch
               </Link>
             </div>
           </div>
@@ -285,11 +285,11 @@ function HomePage() {
                 Whether through funding, partnership or volunteering, your engagement shapes Nigeria's migration future.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/donate" className="btn-gradient rounded-full px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
-                  Donate Now <ArrowRight className="h-4 w-4" />
+                <Link to="/contact" className="btn-gradient rounded-full px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
+                  Get Involved <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link to="/contact" className="rounded-full px-8 py-4 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
-                  Get Involved
+                <Link to="/programmes" className="rounded-full px-8 py-4 text-sm font-semibold border border-white/40 text-white hover:bg-white hover:text-primary-dark transition-all">
+                  Explore Programmes
                 </Link>
               </div>
             </div>

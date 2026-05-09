@@ -60,10 +60,10 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <Link
-            to="/donate"
+            to="/contact"
             className="hidden sm:inline-flex bg-primary text-white hover:bg-primary-dark transition-colors rounded-full px-5 py-2 text-sm font-semibold"
           >
-            Donate
+            Get in touch
           </Link>
           <button
             onClick={() => setOpen((o) => !o)}
@@ -104,10 +104,10 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              to="/donate"
+              to="/contact"
               className="mt-6 inline-flex bg-white text-primary-dark font-semibold rounded-full px-6 py-3 self-start"
             >
-              Donate
+              Get in touch
             </Link>
           </div>
         </div>

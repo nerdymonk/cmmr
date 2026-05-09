@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -52,7 +52,6 @@ export function Footer() {
           <div>
             <h4 className="font-mono text-xs uppercase tracking-widest text-[#8DC142] mb-4">Engage</h4>
             <ul className="space-y-2 text-sm text-[#B8CCB3]">
-              <li><Link to="/donate" className="hover:text-[#7DC142]">Donate</Link></li>
               <li><Link to="/contact" className="hover:text-[#7DC142]">Contact</Link></li>
               <li><a href="https://wa.me/2347055551944" className="hover:text-[#7DC142]">WhatsApp</a></li>
               <li><a href="mailto:witswords@yahoo.co.uk" className="hover:text-[#7DC142]">Email</a></li>
@@ -78,10 +77,22 @@ export function Footer() {
               Subscribe
             </button>
           </form>
-          <div className="mt-6 text-xs text-[#7A9973] space-y-1">
-            <div>📞 +234 705 555 1944  ·  +234 706 435 0427</div>
-            <div>✉ witswords@yahoo.co.uk</div>
-            <div>📍 Abuja, Nigeria</div>
+          <div className="mt-6 text-xs text-[#7A9973] space-y-2">
+            <div className="flex items-start gap-2">
+              <Phone className="h-3.5 w-3.5 mt-0.5 shrink-0 text-[#8DC142]" />
+              <div className="flex flex-col leading-relaxed">
+                <span>+234 705 555 1944</span>
+                <span>+234 706 435 0427</span>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <Mail className="h-3.5 w-3.5 shrink-0 text-[#8DC142]" />
+              <span>witswords@yahoo.co.uk</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin className="h-3.5 w-3.5 shrink-0 text-[#8DC142]" />
+              <span>Abuja, Nigeria</span>
+            </div>
           </div>
         </div>
       </div>
