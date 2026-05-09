@@ -22,7 +22,7 @@ function ContactPage() {
         eyebrow="Contact"
         title={<>Get in <span className="italic">touch</span></>}
         subtitle="For partnerships, media, research collaboration or general enquiries , we'd love to hear from you."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=80"
+        image="/media/content-creator-review.jpg"
       />
 
       <section className="py-20">
@@ -52,14 +52,14 @@ function ContactPage() {
 
           {/* SIDEBAR */}
           <aside className="lg:col-span-5 space-y-5">
-            <div className="bg-[#0F1A0D] text-white rounded-3xl p-8 reveal">
-              <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142] mb-5">Direct contact</div>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3"><Phone className="h-4 w-4 text-[#8DC142] mt-1" /><div><div className="text-sm">+234 705 555 1944</div><div className="text-sm text-[#B8CCB3]">+234 706 435 0427</div></div></li>
-                <li className="flex items-start gap-3"><Mail className="h-4 w-4 text-[#8DC142] mt-1" /><a href="mailto:witswords@yahoo.co.uk" className="text-sm hover:text-[#8DC142]">witswords@yahoo.co.uk</a></li>
-                <li className="flex items-start gap-3"><MapPin className="h-4 w-4 text-[#8DC142] mt-1" /><span className="text-sm">Abuja, Nigeria</span></li>
+            <div className="bg-card border border-border rounded-3xl p-8 reveal">
+              <div className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-5">Direct contact</div>
+              <ul className="space-y-4 text-foreground">
+                <li className="flex items-start gap-3"><Phone className="h-4 w-4 text-primary mt-1 shrink-0" /><div><div className="text-sm font-medium">+234 705 555 1944</div><div className="text-sm text-muted-foreground">+234 706 435 0427</div></div></li>
+                <li className="flex items-start gap-3"><Mail className="h-4 w-4 text-primary mt-1 shrink-0" /><a href="mailto:witswords@yahoo.co.uk" className="text-sm font-medium hover:text-primary">witswords@yahoo.co.uk</a></li>
+                <li className="flex items-start gap-3"><MapPin className="h-4 w-4 text-primary mt-1 shrink-0" /><span className="text-sm font-medium">Abuja, Nigeria</span></li>
               </ul>
-              <a href="https://wa.me/2347055551944" target="_blank" rel="noopener" className="mt-6 inline-flex items-center gap-2 bg-[#25D366] text-white rounded-full px-5 py-2.5 text-sm font-semibold">
+              <a href="https://wa.me/2347055551944" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-2 bg-[#25D366] text-white rounded-full px-5 py-2.5 text-sm font-semibold hover:opacity-90 transition">
                 <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
               </a>
             </div>

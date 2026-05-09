@@ -18,18 +18,18 @@ export const Route = createFileRoute("/gallery")({
 type Cat = "All" | "Events" | "Research" | "Community" | "Publications";
 
 const items: { src: string; cat: Exclude<Cat, "All">; title: string; date: string }[] = [
-  { src: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Annual migration forum", date: "Apr 2026" },
-  { src: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=80", cat: "Research", title: "Field interviews , Lagos", date: "Mar 2026" },
-  { src: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80", cat: "Community", title: "Diaspora meet-up", date: "Feb 2026" },
-  { src: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1200&q=80", cat: "Publications", title: "Journal launch", date: "Jan 2026" },
-  { src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Media literacy workshop", date: "Dec 2025" },
-  { src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80", cat: "Community", title: "Youth roundtable", date: "Nov 2025" },
-  { src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80", cat: "Research", title: "Policy roundtable", date: "Oct 2025" },
-  { src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Press conference", date: "Sep 2025" },
-  { src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80", cat: "Publications", title: "Working paper release", date: "Aug 2025" },
-  { src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80", cat: "Research", title: "Newsroom partnership", date: "Jul 2025" },
-  { src: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?auto=format&fit=crop&w=1200&q=80", cat: "Community", title: "School outreach", date: "Jun 2025" },
-  { src: "https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?auto=format&fit=crop&w=1200&q=80", cat: "Events", title: "Diaspora dialogue", date: "May 2025" },
+  { src: "/media/father-daughter-camera.png", cat: "Events", title: "Annual migration forum", date: "Apr 2026" },
+  { src: "/media/woman-tablet-headphones.jpg", cat: "Research", title: "Field interviews , Lagos", date: "Mar 2026" },
+  { src: "/media/youth-phones.png", cat: "Community", title: "Diaspora meet-up", date: "Feb 2026" },
+  { src: "/media/content-creator-review.jpg", cat: "Publications", title: "Journal launch", date: "Jan 2026" },
+  { src: "/media/woman-camera-bw.png", cat: "Events", title: "Media literacy workshop", date: "Dec 2025" },
+  { src: "/media/youth-phones.png", cat: "Community", title: "Youth roundtable", date: "Nov 2025" },
+  { src: "/media/podcast-host-waving.jpg", cat: "Research", title: "Policy roundtable", date: "Oct 2025" },
+  { src: "/media/designer-retouching.jpg", cat: "Events", title: "Press conference", date: "Sep 2025" },
+  { src: "/media/content-creator-review.jpg", cat: "Publications", title: "Working paper release", date: "Aug 2025" },
+  { src: "/media/podcast-host-waving.jpg", cat: "Research", title: "Newsroom partnership", date: "Jul 2025" },
+  { src: "/media/woman-headphones-yellow.png", cat: "Community", title: "School outreach", date: "Jun 2025" },
+  { src: "/media/youth-phones.png", cat: "Events", title: "Diaspora dialogue", date: "May 2025" },
 ];
 
 const cats: Cat[] = ["All", "Events", "Research", "Community", "Publications"];
@@ -46,7 +46,7 @@ function GalleryPage() {
         eyebrow="Gallery"
         title={<>Photo <span className="italic">gallery</span></>}
         subtitle="A visual record of our research, workshops, conversations and the community we serve."
-        image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000&q=80"
+        image="/media/podcast-host-waving.jpg"
       />
 
       {/* FILTERS */}

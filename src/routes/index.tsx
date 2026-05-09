@@ -38,7 +38,7 @@ function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2400&q=80)",
+              "url(/media/youth-phones.png)",
           }}
         />
         <div
@@ -211,19 +211,19 @@ function HomePage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80",
+                img: "/media/woman-headphones-yellow.png",
                 cat: "Policy",
                 date: "12 APR 2026",
                 t: "Why balanced reporting on migration matters more than ever",
               },
               {
-                img: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=900&q=80",
+                img: "/media/woman-tablet-headphones.jpg",
                 cat: "Research",
                 date: "03 MAR 2026",
                 t: "Youth migration aspirations: findings from a 2026 national survey",
               },
               {
-                img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80",
+                img: "/media/designer-retouching.jpg",
                 cat: "Diaspora",
                 date: "15 FEB 2026",
                 t: "Building bridges: how diaspora networks shape Nigeria's economy",

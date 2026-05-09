@@ -20,31 +20,31 @@ const programmes = [
     Icon: BookOpen,
     t: "Research & Policy Development",
     d: "Original research and policy briefs that inform government, civil society and international agencies on Nigeria's evolving migration landscape.",
-    img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
+    img: "/media/podcast-host-waving.jpg",
   },
   {
     Icon: GraduationCap,
     t: "Media Literacy & Youth Education",
     d: "Workshops and curricula equipping young Nigerians to critically assess migration narratives across traditional and social media.",
-    img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+    img: "/media/woman-camera-bw.png",
   },
   {
     Icon: Users,
     t: "Diaspora Network & Mentorship",
     d: "Connecting Nigerian youth with diaspora professionals for guidance, opportunity and cross-cultural exchange.",
-    img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1400&q=80",
+    img: "/media/youth-phones.png",
   },
   {
     Icon: Library,
     t: "Publications & Knowledge Dissemination",
     d: "A peer-reviewed journal, working papers and practical guides that translate research into accessible insight.",
-    img: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1400&q=80",
+    img: "/media/content-creator-review.jpg",
   },
   {
     Icon: MessageSquare,
     t: "Community Outreach & Workshops",
     d: "On-the-ground engagement in towns and universities , bringing migration knowledge directly to those most affected.",
-    img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1400&q=80",
+    img: "/media/father-daughter-camera.png",
   },
 ];
 
@@ -67,7 +67,7 @@ function ProgrammesPage() {
         eyebrow="Programmes"
         title={<>Our <span className="italic">programmes</span></>}
         subtitle="Research, training, mentorship and publication , five interconnected programmes advancing C.M.R's mission."
-        image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=2000&q=80"
+        image="/media/designer-retouching.jpg"
       />
 
       {/* INTRO */}

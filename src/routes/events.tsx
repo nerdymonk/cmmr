@@ -66,7 +66,7 @@ function EventsPage() {
         eyebrow="Events & Programmes"
         title={<>What we <span className="italic">convene</span></>}
         subtitle="C.M.R's work runs on a recurring agenda of forums, workshops, training and dialogues , published in our brochure and delivered year-round."
-        image="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=2000&q=80"
+        image="/media/father-daughter-camera.png"
       />
 
       <section className="py-20">

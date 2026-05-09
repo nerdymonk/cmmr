@@ -39,25 +39,25 @@ const team = [
     name: "Professor Abiodun Adeniyi",
     title: "Executive Research Lead",
     bio: "Ph.D. (Leeds). Nigeria's first professor of diasporic communication. Dean of Post-Graduate Studies at Baze University. 40+ peer-reviewed works; consultant to the World Bank and EU.",
-    img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+    img: "/media/woman-headphones-yellow.png",
   },
   {
     name: "Dr. Joan Hassan Tyrwin",
     title: "Research Associate",
     bio: "Ph.D. Communication & Media Studies, Anglia Ruskin University. MA in Communication, Media & Culture; MA in Development Studies & Policy Analysis, Kaduna State University.",
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
+    img: "/media/woman-tablet-headphones.jpg",
   },
   {
     name: "Paul A. Obi",
     title: "Senior Research Lead",
     bio: "MA Political Communication, Cardiff University. Lecturer at Baze University; journalist with THISDAY Newspaper. Recipient of UNESCO Best Second Paper on Hate Speech.",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    img: "/media/designer-retouching.jpg",
   },
   {
     name: "Ajuma Mary Abba",
     title: "Senior Research Lead",
     bio: "B.Sc. Mass Communication (First Class), Covenant University. MA Theatre Arts, University of Lagos (Distinction). Pursuing PhD in Media Arts, University of Abuja.",
-    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80",
+    img: "/media/podcast-phone-recording.jpg",
   },
 ];
 
@@ -69,7 +69,7 @@ function AboutPage() {
         eyebrow="About"
         title={<>About <span className="italic">C.M.R</span></>}
         subtitle="A multidisciplinary research hub exploring how media shapes migration narratives, diaspora experience and policy."
-        image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=2000&q=80"
+        image="/media/podcast-host-waving.jpg"
       />
 
       {/* OUR STORY */}
