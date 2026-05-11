@@ -93,11 +93,18 @@ function HomePage() {
       {/* MISSION STRIP */}
       <section id="mission" className="relative bg-gradient-primary text-white py-20 overflow-hidden">
         <div className="absolute -top-12 left-8 text-[14rem] leading-none font-display text-white/10 select-none">"</div>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative reveal">
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/70 mb-4">Our mission</div>
-          <p className="font-display text-3xl md:text-5xl lg:text-6xl leading-tight max-w-5xl">
-            Through research, dialogue and collaboration, we build stronger, more connected societies , empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
-          </p>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative reveal grid lg:grid-cols-12 gap-10 items-center">
+          <div className="lg:col-span-8">
+            <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/70 mb-4">Our mission</div>
+            <p className="font-display text-3xl md:text-5xl lg:text-6xl leading-tight">
+              Through research, dialogue and collaboration, we build stronger, more connected societies , empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
+            </p>
+          </div>
+          <div className="lg:col-span-4">
+            <div className="rounded-3xl overflow-hidden img-hover shadow-card aspect-[3/4]">
+              <img src="/media/content-creator-phone.jpg" alt="Content creator reviewing a phone" className="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -258,8 +265,8 @@ function HomePage() {
           <p className="font-display text-3xl md:text-5xl leading-tight mb-10">
             Migration is not just a journey of bodies across borders , it is a journey of stories, identity and possibility. The media we make shapes the world we share.
           </p>
-          <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142]">Professor Abiodun Adeniyi</div>
-          <div className="text-sm text-white/80 mt-1">Executive Research Lead, C.M.R</div>
+          <div className="font-display text-2xl md:text-3xl font-bold text-white tracking-wide">Professor Abiodun Adeniyi</div>
+          <div className="text-sm text-white/80 mt-2">Executive Research Lead, C.M.R</div>
         </div>
       </section>
 
