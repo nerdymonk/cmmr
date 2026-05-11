@@ -38,7 +38,7 @@ function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(/media/youth-phones.png)",
+              "url(/media/library-study.jpg)",
           }}
         />
         <div

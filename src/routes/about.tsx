@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { PageEffects } from "@/components/site/PageEffects";
 import { Linkedin } from "lucide-react";
-import studentLaptop from "@/assets/brochure/student-laptop.jpg";
+const studentLaptop = "/media/library-study.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
