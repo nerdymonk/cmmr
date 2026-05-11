@@ -28,6 +28,7 @@ export function Navbar() {
   useEffect(() => setOpen(false), [loc.pathname]);
 
   return (
+    <>
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled ? "py-2 backdrop-blur-md border-b border-white/10" : "bg-transparent py-4"
@@ -68,14 +69,15 @@ export function Navbar() {
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Menu"
-            className="lg:hidden h-9 w-9 rounded-full border border-border flex items-center justify-center"
+            className="lg:hidden h-9 w-9 rounded-full border border-white/30 flex items-center justify-center text-white"
           >
             {open ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
           </button>
         </div>
       </div>
+    </header>
 
-      {/* Mobile drawer */}
+      {/* Mobile drawer , rendered outside header to escape backdrop-filter containing block */}
       {open && (
         <div
           className="lg:hidden fixed inset-0 z-[100] overflow-y-auto"
@@ -112,6 +114,6 @@ export function Navbar() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
