@@ -1,6 +1,6 @@
-# CMMR (TanStack Start TypeScript Application)
+# CMR
 
-Welcome to **CMMR**! This is a modern, full-stack web application built with cutting-edge technologies. Whether you're building a dashboard, data visualization tool, or interactive web app, this project provides a solid foundation with all the tools you need.
+Welcome to **CMR**! This is a modern, full-stack web application built with cutting-edge technologies. Whether you're building a dashboard, data visualization tool, or interactive web app, this project provides a solid foundation with all the tools you need.
 
 ## 📋 Table of Contents
 
@@ -25,7 +25,7 @@ Welcome to **CMMR**! This is a modern, full-stack web application built with cut
 
 ## 🎯 What is This Project?
 
-CMMR is a TypeScript-based web application template that combines **TanStack Start** (a full-stack React framework) with modern UI components, styling, and deployment capabilities. It's designed to be production-ready and developer-friendly, making it perfect for:
+CMR is a TypeScript-based web application template that combines **TanStack Start** (a full-stack React framework) with modern UI components, styling, and deployment capabilities. It's designed to be production-ready and developer-friendly, making it perfect for:
 
 - Building interactive dashboards
 - Creating data visualization applications
