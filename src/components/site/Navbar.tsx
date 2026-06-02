@@ -1,6 +1,8 @@
 import { Link, useLocation } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import logoAsset from "@/assets/cmmr-logo.png.asset.json";
+
 
 const links = [
   { to: "/", label: "Home" },
@@ -36,14 +38,14 @@ export function Navbar() {
       style={scrolled ? { backgroundColor: "rgba(15, 76, 129, 0.92)" } : undefined}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
-        <Link to="/" className="flex flex-col leading-none">
-          <span className="font-display text-2xl font-bold tracking-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
-            C.M.R<span className="text-primary-light">.</span>
-          </span>
-          <span className="text-[9px] uppercase tracking-[0.18em] text-white/80 hidden sm:block drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
-            Centre for Media & Migration Research
-          </span>
+        <Link to="/" className="flex items-center gap-3 group" aria-label="CMMR home">
+          <img
+            src={logoAsset.url}
+            alt="CMMR — Centre for Media & Migration Research"
+            className="h-10 md:h-12 w-auto drop-shadow-[0_2px_6px_rgba(0,0,0,0.35)] transition-transform group-hover:scale-[1.03]"
+          />
         </Link>
+
 
         <nav className="hidden lg:flex items-center gap-1">
           {links.map((l) => (
@@ -84,9 +86,8 @@ export function Navbar() {
           style={{ backgroundColor: "#0F4C81" }}
         >
           <div className="flex items-center justify-between px-4 py-4 border-b border-white/15">
-            <span className="font-display text-2xl font-bold text-white">
-              C.M.R<span className="text-primary-light">.</span>
-            </span>
+            <img src={logoAsset.url} alt="CMMR" className="h-10 w-auto" />
+
             <button
               onClick={() => setOpen(false)}
               aria-label="Close menu"

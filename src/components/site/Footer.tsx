@@ -1,5 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import logoAsset from "@/assets/cmmr-logo.png.asset.json";
+
 
 const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
@@ -12,15 +14,13 @@ export function Footer() {
     <footer className="bg-[#0A2540] text-[#EAF3FA] mt-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-3 gap-12">
         <div>
-          <div className="font-display text-3xl font-bold">
-            C.M.R<span className="text-[#6DCDF0]">.</span>
+          <div className="inline-flex bg-white/95 rounded-2xl p-3 shadow-lg">
+            <img src={logoAsset.url} alt="CMMR — Centre for Media & Migration Research" className="h-14 w-auto" />
           </div>
-          <p className="mt-2 text-xs uppercase tracking-[0.2em] text-[#6A8FB0]">
-            Centre for Media & Migration Research
-          </p>
           <p className="mt-6 text-sm text-[#B8D4E8] max-w-sm leading-relaxed">
             A multidisciplinary research hub exploring the intersections of media and migration in Nigeria and the global diaspora.
           </p>
+
           <div className="flex gap-3 mt-6">
             {[Facebook, XIcon, Linkedin, Instagram].map((Icon, i) => (
               <a
