@@ -1,7 +1,7 @@
 // Centralized icon set , drop-in replacements for the lucide-react icons
 // previously used across the site. Each export wraps a Hugeicons stroke icon
 // so existing JSX (<Icon className="h-4 w-4" />) keeps working unchanged.
-import { HugeiconsIcon, type HugeiconsProps } from "@hugeicons/react";
+import { HugeiconsIcon, type HugeiconsIconProps, type IconSvgElement } from "@hugeicons/react";
 import {
   ArrowRight01Icon,
   ArrowDown01Icon,
