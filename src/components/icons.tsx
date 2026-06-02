@@ -36,11 +36,10 @@ import {
   NewTwitterIcon,
 } from "@hugeicons/core-free-icons";
 
-type IconProps = Omit<HugeiconsProps, "icon">;
-type IconSvg = HugeiconsProps["icon"];
+type IconProps = Omit<HugeiconsIconProps, "icon">;
 
-const make = (icon: IconSvg | undefined) => {
-  const C = (props: IconProps) => <HugeiconsIcon icon={icon as IconSvg} {...props} />;
+const make = (icon: IconSvgElement | undefined) => {
+  const C = (props: IconProps) => <HugeiconsIcon icon={icon as IconSvgElement} {...props} />;
   return C;
 };
 
