@@ -37,8 +37,9 @@ import {
 } from "@hugeicons/core-free-icons";
 
 type IconProps = Omit<HugeiconsProps, "icon">;
+type IconSvg = HugeiconsProps["icon"];
 
-const make = (icon: HugeiconsProps["icon"]) => {
+const make = (icon: IconSvg) => {
   const C = (props: IconProps) => <HugeiconsIcon icon={icon} {...props} />;
   return C;
 };
