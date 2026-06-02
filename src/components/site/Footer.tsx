@@ -17,7 +17,7 @@ export function Footer() {
           </p>
 
           <div className="flex gap-3 mt-6">
-            {[Facebook, XIcon, Linkedin, Instagram].map((Icon, i) => (
+            {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
               <a
                 key={i}
                 href="#"
