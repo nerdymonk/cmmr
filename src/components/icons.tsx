@@ -40,8 +40,7 @@ type IconProps = Omit<HugeiconsProps, "icon">;
 type IconSvg = HugeiconsProps["icon"];
 
 const make = (icon: IconSvg | undefined) => {
-  const resolved = icon as IconSvg;
-  const C = (props: IconProps) => <HugeiconsIcon icon={resolved} {...props} />;
+  const C = (props: IconProps) => <HugeiconsIcon icon={icon as IconSvg} {...props} />;
   return C;
 };
 
