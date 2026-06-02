@@ -48,8 +48,8 @@ function HomePage() {
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full grid lg:grid-cols-12 gap-8 items-center py-20">
           <div className="lg:col-span-8">
-            <div className="font-mono text-xs uppercase tracking-[0.4em] text-[#8DC142] mb-6 fade-up" style={{ animationDelay: "0.05s" }}>
-              <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#8DC142] mr-3 align-middle pulse-dot" />
+            <div className="font-mono text-xs uppercase tracking-[0.4em] text-[#6DCDF0] mb-6 fade-up" style={{ animationDelay: "0.05s" }}>
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#6DCDF0] mr-3 align-middle pulse-dot" />
               Centre for Media & Migration Research
             </div>
             <h1 className="font-display text-white text-[clamp(3rem,8vw,7rem)] leading-[0.92] font-medium fade-up" style={{ animationDelay: "0.2s" }}>
@@ -136,11 +136,11 @@ function HomePage() {
       </section>
 
       {/* IMPACT NUMBERS */}
-      <section className="bg-[#0F1A0D] text-white py-24 relative overflow-hidden">
+      <section className="bg-[#0A2540] text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-mesh opacity-30" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16 reveal">
-            <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142] mb-3">Our impact</div>
+            <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#6DCDF0] mb-3">Our impact</div>
             <h2 className="font-display text-4xl md:text-6xl">By the numbers</h2>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -154,8 +154,8 @@ function HomePage() {
                 <div className="font-mono text-5xl md:text-7xl text-white leading-none">
                   <Counter to={s.v} suffix={s.suf} />
                 </div>
-                <div className="mt-3 h-px w-12 bg-[#8DC142]" />
-                <div className="mt-3 text-sm text-[#B8CCB3] uppercase tracking-wider">{s.label}</div>
+                <div className="mt-3 h-px w-12 bg-[#6DCDF0]" />
+                <div className="mt-3 text-sm text-[#B8D4E8] uppercase tracking-wider">{s.label}</div>
               </div>
             ))}
           </div>
@@ -261,7 +261,7 @@ function HomePage() {
         <div className="absolute -top-20 left-12 text-[20rem] leading-none font-display text-white/10 select-none">"</div>
         <div className="absolute -bottom-32 right-12 text-[20rem] leading-none font-display text-white/10 select-none rotate-180">"</div>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center relative reveal">
-          <Quote className="h-10 w-10 mx-auto mb-8 text-[#8DC142]" />
+          <Quote className="h-10 w-10 mx-auto mb-8 text-[#6DCDF0]" />
           <p className="font-display text-3xl md:text-5xl leading-tight mb-10">
             Migration is not just a journey of bodies across borders , it is a journey of stories, identity and possibility. The media we make shapes the world we share.
           </p>
@@ -276,11 +276,11 @@ function HomePage() {
       {/* CTA */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-[#0F1A0D] rounded-[2.5rem] p-12 md:p-20 overflow-hidden reveal">
+          <div className="relative bg-[#0A2540] rounded-[2.5rem] p-12 md:p-20 overflow-hidden reveal">
             <div className="absolute inset-0 bg-mesh opacity-40" />
             <div
               className="absolute -right-32 -bottom-32 h-96 w-96 rounded-full opacity-30"
-              style={{ background: "radial-gradient(circle, #7DC142 0%, transparent 70%)" }}
+              style={{ background: "radial-gradient(circle, #3DB5E6 0%, transparent 70%)" }}
             />
             <div className="relative max-w-3xl">
               <h2 className="font-display text-white text-4xl md:text-6xl leading-[1.05] mb-6">

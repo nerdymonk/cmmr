@@ -33,7 +33,7 @@ export function Navbar() {
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled ? "py-2 backdrop-blur-md border-b border-white/10" : "bg-transparent py-4"
       }`}
-      style={scrolled ? { backgroundColor: "rgba(30, 92, 26, 0.88)" } : undefined}
+      style={scrolled ? { backgroundColor: "rgba(15, 76, 129, 0.92)" } : undefined}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         <Link to="/" className="flex flex-col leading-none">
@@ -81,7 +81,7 @@ export function Navbar() {
       {open && (
         <div
           className="lg:hidden fixed inset-0 z-[100] overflow-y-auto"
-          style={{ backgroundColor: "#1E5C1A" }}
+          style={{ backgroundColor: "#0F4C81" }}
         >
           <div className="flex items-center justify-between px-4 py-4 border-b border-white/15">
             <span className="font-display text-2xl font-bold text-white">

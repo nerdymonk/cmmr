@@ -25,8 +25,8 @@ export function PageHero({
         className="absolute inset-0"
         style={{
           background: image
-            ? "linear-gradient(135deg, rgba(30,92,26,0.85) 0%, rgba(74,155,58,0.7) 60%, rgba(125,193,66,0.55) 100%)"
-            : "linear-gradient(135deg, #1E5C1A 0%, #4A9B3A 100%)",
+            ? "linear-gradient(135deg, rgba(15,76,129,0.85) 0%, rgba(43,168,224,0.7) 60%, rgba(109,205,240,0.55) 100%)"
+            : "linear-gradient(135deg, #0F4C81 0%, #2BA8E0 100%)",
         }}
       />
       <div

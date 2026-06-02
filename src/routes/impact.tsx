@@ -33,7 +33,7 @@ function StatCard({ label, value, prefix = "", suffix = "" }: { label: string; v
 
 function ImpactPage() {
   const tickColor = "#4A4A4A";
-  const gridColor = "#E0E8DA";
+  const gridColor = "#D6E5F2";
 
   // Figures grounded in the C.M.R brochure: 40+ peer-reviewed publications,
   // 4 active research programmes, 3 partner universities, 1,200+ community members.
@@ -43,7 +43,7 @@ function ImpactPage() {
       {
         label: "Programmes & outputs",
         data: [10, 8, 6, 16],
-        backgroundColor: "#4A9B3A",
+        backgroundColor: "#2BA8E0",
         borderRadius: 8,
       },
     ],
@@ -54,7 +54,7 @@ function ImpactPage() {
     datasets: [
       {
         data: [35, 28, 20, 17],
-        backgroundColor: ["#1E5C1A", "#4A9B3A", "#7DC142", "#8DC142"],
+        backgroundColor: ["#0F4C81", "#2BA8E0", "#3DB5E6", "#6DCDF0"],
         borderColor: "#FFFFFF",
         borderWidth: 4,
       },
