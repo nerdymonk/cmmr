@@ -1,13 +1,8 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin, Twitter } from "@/components/icons";
 import logoAsset from "@/assets/cmmr-logo.png.asset.json";
 
 
-const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
-    <path d="M18.244 2H21.5l-7.51 8.59L23 22h-6.84l-5.36-6.99L4.6 22H1.34l8.04-9.2L1 2h7.02l4.84 6.4L18.244 2zm-1.2 18h1.86L7.06 4H5.1l11.944 16z" />
-  </svg>
-);
 
 export function Footer() {
   return (
