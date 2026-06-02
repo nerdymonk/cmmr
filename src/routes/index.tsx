@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, ArrowDown, BookOpen, Users, Globe2, Newspaper, Quote, Mic, GraduationCap } from "lucide-react";
+import { ArrowRight, ArrowDown, BookOpen, Users, Globe2, Newspaper, Quote, Mic, GraduationCap } from "@/components/icons";
 import { PageEffects } from "@/components/site/PageEffects";
 import { PartnerMarquee } from "@/components/site/PartnerMarquee";
 import { useCountUp } from "@/lib/scroll-reveal";

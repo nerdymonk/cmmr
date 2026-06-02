@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { PageEffects } from "@/components/site/PageEffects";
-import { ArrowRight, Search } from "lucide-react";
+import { ArrowRight, Search } from "@/components/icons";
 
 export const Route = createFileRoute("/news")({
   head: () => ({

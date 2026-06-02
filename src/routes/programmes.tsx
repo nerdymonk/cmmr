@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { PageEffects } from "@/components/site/PageEffects";
-import { ArrowRight, BookOpen, GraduationCap, Users, FileText, MessageSquare, Calendar, Network, Library } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, Users, FileText, MessageSquare, Calendar, Network, Library } from "@/components/icons";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/programmes")({
