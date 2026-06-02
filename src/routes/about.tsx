@@ -140,20 +140,20 @@ function AboutPage() {
       </section>
 
       {/* FOCUS AREAS */}
-      <section className="py-24 bg-[#0F1A0D] text-white relative overflow-hidden">
+      <section className="py-24 bg-[#0A2540] text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-mesh opacity-30" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="mb-16 reveal">
-            <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#8DC142] mb-4">Areas of focus</div>
+            <div className="font-mono text-xs uppercase tracking-[0.3em] text-[#6DCDF0] mb-4">Areas of focus</div>
             <h2 className="font-display text-4xl md:text-6xl max-w-3xl leading-[1.05]">
               Where we <span className="italic">concentrate</span> our research.
             </h2>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-[#2A3D26]">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-[#1F4870]">
             {focus.map((f, i) => (
-              <div key={f} className="bg-[#0F1A0D] p-8 reveal hover:bg-[#152112] transition-colors group" style={{ transitionDelay: `${i * 50}ms` }}>
-                <div className="font-mono text-xs text-[#8DC142]">0{i + 1}</div>
-                <div className="mt-4 font-display text-xl leading-snug group-hover:text-[#8DC142] transition-colors">{f}</div>
+              <div key={f} className="bg-[#0A2540] p-8 reveal hover:bg-[#0F2E4F] transition-colors group" style={{ transitionDelay: `${i * 50}ms` }}>
+                <div className="font-mono text-xs text-[#6DCDF0]">0{i + 1}</div>
+                <div className="mt-4 font-display text-xl leading-snug group-hover:text-[#6DCDF0] transition-colors">{f}</div>
               </div>
             ))}
           </div>
