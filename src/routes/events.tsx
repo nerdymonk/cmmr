@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { PageEffects } from "@/components/site/PageEffects";
-import { Users, BookOpen, GraduationCap, Globe2, Handshake, Mic, FileText, Lightbulb } from "lucide-react";
+import { Users, BookOpen, GraduationCap, Globe2, Handshake, Mic, FileText, Lightbulb } from "@/components/icons";
 
 export const Route = createFileRoute("/events")({
   head: () => ({

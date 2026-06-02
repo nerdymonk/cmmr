@@ -1,5 +1,5 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
+import { Menu, X } from "@/components/icons";
 import { useEffect, useState } from "react";
 import logoAsset from "@/assets/cmmr-logo.png.asset.json";
 
