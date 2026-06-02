@@ -32,7 +32,7 @@ export function PageHero({
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: "url(/patterns/pattern-green.png)",
+          backgroundImage: "url(/patterns/pattern-light.png)",
           backgroundRepeat: "repeat",
           backgroundSize: "700px auto",
           opacity: 0.22,
