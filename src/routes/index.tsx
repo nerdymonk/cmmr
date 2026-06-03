@@ -96,7 +96,7 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative reveal grid lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-8">
             <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/70 mb-4">Our mission</div>
-            <p className="font-display text-3xl md:text-5xl lg:text-6xl leading-tight">
+            <p className="font-display text-xl md:text-2xl lg:text-3xl leading-relaxed font-light max-w-3xl">
               Through research, dialogue and collaboration, we build stronger, more connected societies , empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
             </p>
           </div>
@@ -151,7 +151,7 @@ function HomePage() {
               { v: 1200, suf: "+", label: "Community members reached" },
             ].map((s, i) => (
               <div key={i} className="reveal" style={{ transitionDelay: `${i * 100}ms` }}>
-                <div className="font-mono text-5xl md:text-7xl text-white leading-none">
+                <div className="font-mono text-4xl md:text-5xl text-white leading-none">
                   <Counter to={s.v} suffix={s.suf} />
                 </div>
                 <div className="mt-3 h-px w-12 bg-[#6DCDF0]" />
