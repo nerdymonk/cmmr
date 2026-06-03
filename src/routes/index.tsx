@@ -3,7 +3,7 @@ import { ArrowRight, ArrowDown, BookOpen, Users, Globe2, Newspaper, Quote, Mic, 
 import { PageEffects } from "@/components/site/PageEffects";
 import { PartnerMarquee } from "@/components/site/PartnerMarquee";
 import { useCountUp } from "@/lib/scroll-reveal";
-import studentLaptop from "@/assets/brochure/student-laptop.jpg";
+import studentLaptop from "@/assets/student-laptop.jpg.asset.json";
 import womanTablet from "@/assets/brochure/woman-tablet.jpg";
 import camera from "@/assets/brochure/camera-classroom.jpg";
 
