@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
+import impactHero from "@/assets/impact-learning.jpg.asset.json";
 import { PageEffects } from "@/components/site/PageEffects";
 import { useCountUp } from "@/lib/scroll-reveal";
 import { Bar, Doughnut } from "react-chartjs-2";
