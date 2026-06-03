@@ -129,7 +129,7 @@ function HomePage() {
           </div>
           <div className="lg:col-span-5 reveal">
             <div className="img-hover rounded-3xl overflow-hidden aspect-[4/5] shadow-card">
-              <img src={studentLaptop} alt="Researcher at work" className="w-full h-full object-cover" />
+              <img src={studentLaptop.url} alt="Researcher at work" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
