@@ -88,6 +88,7 @@ function ImpactPage() {
         eyebrow="Our Impact"
         title={<>Our impact <span className="italic">at a glance</span></>}
         subtitle="A transparent view of the research, partnerships and people behind C.M.R's work."
+        image={impactHero.url}
       />
 
       {/* STATS , sourced from the C.M.R brochure */}
