@@ -1,5 +1,8 @@
 {
   "$schema": "https://developers.cloudflare.com/workers/platform/deployments/cloudflare_pages/configuration/",
+  "name": "your-project-name",
+  "compatibility_date": "2025-09-24",
+  "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": "dist/client",
   "env": {
     "production": {
