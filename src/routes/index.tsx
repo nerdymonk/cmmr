@@ -151,7 +151,7 @@ function HomePage() {
               { v: 1200, suf: "+", label: "Community members reached" },
             ].map((s, i) => (
               <div key={i} className="reveal" style={{ transitionDelay: `${i * 100}ms` }}>
-                <div className="font-mono text-5xl md:text-7xl text-white leading-none">
+                <div className="font-mono text-4xl md:text-5xl text-white leading-none">
                   <Counter to={s.v} suffix={s.suf} />
                 </div>
                 <div className="mt-3 h-px w-12 bg-[#6DCDF0]" />
