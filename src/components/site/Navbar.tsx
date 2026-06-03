@@ -39,12 +39,15 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-3 group" aria-label="CMMR home">
-          <img
-            src={logoAsset.url}
-            alt="CMMR — Centre for Media & Migration Research"
-            className="h-10 md:h-12 w-auto drop-shadow-[0_2px_6px_rgba(0,0,0,0.35)] transition-transform group-hover:scale-[1.03]"
-          />
+          <span className="inline-flex items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/20 backdrop-blur-md px-3 py-1.5 shadow-[0_4px_14px_rgba(0,0,0,0.25)] transition-all group-hover:bg-white/15 group-hover:ring-white/30">
+            <img
+              src={logoAsset.url}
+              alt="CMMR — Centre for Media & Migration Research"
+              className="h-12 md:h-14 w-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] transition-transform group-hover:scale-[1.03]"
+            />
+          </span>
         </Link>
+
 
 
         <nav className="hidden lg:flex items-center gap-1">
