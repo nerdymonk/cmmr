@@ -96,7 +96,7 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative reveal grid lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-8">
             <div className="font-mono text-xs uppercase tracking-[0.3em] text-white/70 mb-4">Our mission</div>
-            <p className="font-display text-3xl md:text-5xl lg:text-6xl leading-tight">
+            <p className="font-display text-xl md:text-2xl lg:text-3xl leading-relaxed font-light max-w-3xl">
               Through research, dialogue and collaboration, we build stronger, more connected societies , empowering voices and promoting cross-cultural understanding across Nigeria and the diaspora.
             </p>
           </div>
