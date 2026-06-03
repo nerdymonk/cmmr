@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
+import impactHero from "@/assets/impact-learning.jpg.asset.json";
 import { PageEffects } from "@/components/site/PageEffects";
 import { useCountUp } from "@/lib/scroll-reveal";
 import { Bar, Doughnut } from "react-chartjs-2";
@@ -87,6 +88,7 @@ function ImpactPage() {
         eyebrow="Our Impact"
         title={<>Our impact <span className="italic">at a glance</span></>}
         subtitle="A transparent view of the research, partnerships and people behind C.M.R's work."
+        image={impactHero.url}
       />
 
       {/* STATS , sourced from the C.M.R brochure */}
